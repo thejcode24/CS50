@@ -29,7 +29,9 @@ int main(void)
         // and print the character at index i as upper case letter if so.
         if (s[i-1] == 32) 
         {
-            printf("%c\n", toupper(s[i]));
+            printf("%c", toupper(s[i]));
         }
+    
     }
+    printf("\n");
 }
